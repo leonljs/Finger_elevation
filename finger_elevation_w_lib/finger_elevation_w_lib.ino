@@ -76,7 +76,6 @@ void motorDownSet() {
   stepper.setSpeed(-2000);
 }
 
-
 void motorStop(){
   digitalWrite(stanByPin, LOW);
 }
