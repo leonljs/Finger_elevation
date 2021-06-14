@@ -14,13 +14,18 @@ void setup() {
 
 void draw() {
   if (btn_push == true && data_send == false) {
-    if (key == 'w'){
+    if (key == 'w') {
       s1.write('w');
       println('w');
-    }
-    else if (key == 's') {
+    } else if (key == 's') {
       s1.write('s');
       println('s');
+    } else if (key == 'e') {
+      s1.write('e');
+      println('e');
+    } else if (key == 'd') {
+      s1.write('d');
+      println('d');
     }
     data_send = true;
   }
