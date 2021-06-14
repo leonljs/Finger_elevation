@@ -46,22 +46,22 @@ void loop() {
       motor_1_UpSet();
       motor_1 = true;
     }
-    else if (val == 's') {
+    if (val == 's') {
       lightUp();
       motor_1_DownSet();
       motor_1 = true;
     }
-    else if (val == 'e') {
+    if (val == 'e') {
       lightUp();
       motor_2_UpSet();
       motor_2 = true;
     }
-    else if (val == 'd') {
+    if (val == 'd') {
       lightUp();
       motor_2_DownSet();
       motor_2 = true;
     }
-    else if (val == '0') {
+    if (val == '0') {
       lightDown();
       motorStop();
       motor_1 = false;
